@@ -1,0 +1,13 @@
+# forked by Price Difference Formatter
+# editor Vadimka
+name: 'Price template formatter'
+description: 'Редактирование вывода цены шаблоном'
+package: Commerce
+
+type: module
+core: '8.x'
+
+dependencies:
+- commerce:commerce_order
+- commerce:commerce_product
+- commerce:commerce_promotion

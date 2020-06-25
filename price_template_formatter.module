@@ -1,0 +1,15 @@
+<?php
+/**
+ * Хук темы
+ */
+function price_template_formatter_theme($existing, $type, $theme, $path) {
+  return [
+    'price_formatter' => [
+      'variables' => [
+        'price_old' => "",
+        'discount' => "",
+        'price' => ""
+      ]
+    ]
+  ];
+}
